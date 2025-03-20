@@ -1,0 +1,11 @@
+moviepy==1.0.3
+opencv-python==4.7.0.72
+Pillow==9.4.0
+numpy==1.24.3
+PyYAML==6.0
+spacy==3.5.3
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+tqdm==4.65.0
+nltk==3.8.1
+scikit-image==0.20.0
+pygame==2.3.0
