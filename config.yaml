@@ -1,0 +1,104 @@
+video:
+  fps: 30
+  resolution: "1920x1080"  # 16:9 aspect ratio
+  duration_range: [30, 60]  # in seconds
+  min_duration_per_image: 2.0
+  max_duration_per_image: 5.0
+  transition_duration: 0.8
+
+effects:
+  # Ken Burns effect settings
+  zoom_range: [1.0, 1.25]
+  pan_range_x: [-0.15, 0.15]
+  pan_range_y: [-0.15, 0.15]
+  
+  # Transition effects
+  transitions:
+    - "dissolve"
+    - "fade"
+    - "wipe_left"
+    - "wipe_right"
+    - "slide_left"
+    - "slide_right"
+  
+  # Image enhancement
+  brightness_adjustment: 1.05
+  contrast_adjustment: 1.1
+  saturation_adjustment: 1.1
+
+text:
+  # Font settings
+  title_font: "Montserrat-Bold"
+  body_font: "Montserrat-Regular"
+  title_size: 48
+  subtitle_size: 36
+  body_size: 28
+  
+  # Colors
+  primary_color: "#FFFFFF"
+  secondary_color: "#F5F5F5"
+  highlight_color: "#FFD700"
+  shadow_color: "#000000"
+  shadow_offset: [2, 2]
+  
+  # Display options
+  display_time: 3.5
+  fade_in_time: 0.5
+  fade_out_time: 0.5
+  
+  # Text overlay positions (normalized coordinates)
+  title_position: [0.5, 0.15]
+  body_position: [0.5, 0.5]
+  
+  # Property features highlight
+  highlight_important_features: true
+  max_highlights: 5
+
+audio:
+  # Background music options
+  music_options:
+    - name: "upbeat"
+      file: "assets/music/upbeat.mp3"
+    - name: "ambient"
+      file: "assets/music/ambient.mp3"
+    - name: "luxury"
+      file: "assets/music/luxury.mp3"
+  
+  # Volume settings
+  music_volume: 0.3
+  fade_in: 1.0
+  fade_out: 3.0
+
+branding:
+  logo_path: "assets/branding/logo.png"
+  logo_size: [200, 100]  # width, height
+  logo_position: [0.9, 0.9]  # bottom right
+  logo_opacity: 0.8
+  display_contact_info: true
+  contact_info_position: [0.5, 0.9]
+
+text_processing:
+  # NLP settings for description parsing
+  key_features_to_extract: 10
+  highlight_words:
+    - "new"
+    - "renovated"
+    - "updated"
+    - "spacious"
+    - "luxury"
+    - "beautiful"
+    - "stunning"
+    - "modern"
+    - "custom"
+  important_features:
+    - "bedroom"
+    - "bathroom"
+    - "kitchen"
+    - "garage"
+    - "pool"
+    - "yard"
+    - "view"
+    - "square feet"
+    - "sqft"
+    - "patio"
+    - "deck"
